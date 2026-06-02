@@ -1,6 +1,9 @@
+# Streamlit built-in theme — high-visibility colours for readers with poor eyesight.
+# Docs: https://docs.streamlit.io/develop/api-reference/configuration/config.toml
 [theme]
-primaryColor="#F63366"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#262730"
-font="sans serif"
+base = "dark"                       # Start from the dark theme
+primaryColor = "#FFD400"            # Bright yellow for charts, sliders, selected tab
+backgroundColor = "#000000"         # Black page background (maximum contrast)
+secondaryBackgroundColor = "#1F1F1F"  # Slightly lighter cards/sidebar so edges are visible
+textColor = "#FFFFFF"               # White text
+font = "sans serif"                 # Plain, easy-to-read font family
